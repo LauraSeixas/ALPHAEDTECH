@@ -1,0 +1,246 @@
+/*font-family: 'Bungee Hairline', cursive;
+font-family: 'Italiana', serif;
+font-family: 'Major Mono Display', monospace;
+font-family: 'Poiret One', cursive;
+font-family: 'Roboto', sans-serif;*/
+body{
+    background-color: whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
+    width: 1440px;
+    height: 1024px;
+}
+header{
+    display: flex;
+    height: 20%;
+    width: 100%;
+    justify-content: flex-start;
+}
+.photo{
+    height: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 11vw;
+    margin-top: 2vh;
+}
+h1{
+    font-family: 'Poiret One', cursive;
+    font-weight: bold; 
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 1.5vh;
+}
+.LauraPhoto{
+    border: 3px solid goldenrod;
+    height: 80%;
+    border-radius: 50%;
+}
+.data{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 7.5vw;
+    margin-top: 4vh;
+}
+.occupation{
+    font-family: 'Poiret One', cursive;
+    font-size: 2vh;
+    font-weight: 600;
+    margin-top: 1.5vh;
+}
+.name{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Poiret One', cursive;
+    font-size: 6vh;
+    font-weight: 500;
+}
+strong{
+    color: goldenrod;
+}
+.bar{
+    background-color: goldenrod;
+    width: 2px;
+    height: 100%;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 80%;
+    width: 100%;
+}
+section{
+    display: flex;
+    height: 100%;
+    width: 40%;
+}
+aside{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 60%;
+}
+.containerLeft{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.contact{
+    width: 100%;
+    height: 23%;
+    display: flex;
+    flex-direction: column;  
+}
+.titleContact{
+    margin-top: 2.5vh;
+    margin-left: 10vw;
+}
+.titleCompetences{
+    margin-left: 10vw;
+    margin-top: 4vh;
+}
+.titleExtras{
+    margin-left: 10vw;
+}
+.profilTitle{
+    margin-left: 5vw;
+}
+.infoCont{
+    margin-top: 2vh;
+    margin-left: 5vw;   
+}
+.icons{
+    width: 4%;
+    margin-top: 0.5vh;
+    margin-left: 5vw;
+    margin-right: 1vw;    
+}
+
+.information{
+    margin-bottom: 0.5vh;
+    margin-right: 100px; 
+}
+.competences{
+    width: 100%;
+    height: 24%;
+    display: flex;
+    flex-direction: column;
+}
+.containerRight{
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.profil{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 1.5vh;
+    margin-top: 1.8vh;
+    margin-left: 5vw;
+    margin-right: 7vw;
+    font-style: italic;
+}
+.lorem{
+    margin-left: 10vw;
+    margin-right: 7vw;
+    margin-top: 2.5vh; 
+}
+.extras{
+    width: 100%;
+    height: 23%;
+    display: flex;
+    flex-direction: column;
+}
+
+.experience{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3vh;
+}
+
+.education{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 1.5vh;
+    margin-top: 7.5vh;
+    margin-left: 5vw;
+    margin-right: 7vw;
+}
+ul{
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+    list-style-position: inside;
+    margin-top: 2.5vh;
+}
+ul li::before {
+    content: "\2022";
+    color: goldenrod;
+    font-weight: bold;
+    font-size: 2vh;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+  }
+.bar2{
+    background-color: goldenrod;
+    width: 10vw;
+    height: 0.2vh;
+    margin-top: 0.5vh;
+}
+.skills{
+    margin-top: 2vh; 
+    display: flex;
+    flex-direction: row;
+    margin-left: 5vw;
+}
+.skillBalls{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+.skillTitle{
+    margin-left: 5vw;
+    margin-top: 5vh;
+} 
+.circle{
+    background-color: goldenrod;
+    width: 0.5vw;
+    height: 1vh;
+    margin-bottom: 1vh;
+    margin-right: 0.5vw;
+    border-radius: 50%;
+}
+.circlegray{
+    background-color: gray;
+    width: 0.5vw;
+    height: 1vh;
+    margin-bottom: 1vh;
+    margin-right: 0.5vw;
+    border-radius: 50%;
+}
+.skillText{
+    margin-left: 0.5vw;
+}
+.bar3{
+    background-color: goldenrod;
+    width: 10vw;
+    height: 0.2vh;
+    margin-top: 0.5vh;
+    margin-left: 5vw;;
+}
+.text{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 1.5vh;
+    margin-bottom: 0.15vw;
+}
