@@ -1,0 +1,136 @@
+/* font-family: 'DotGothic16', sans-serif;
+font-family: 'Rajdhani', sans-serif; */
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header {
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  height: 3vh;
+  width: 15vw;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  box-shadow: 10px 5px 10px 5px rgba(166, 193, 238, 0.75);
+  margin-bottom: 0.7vh;
+}
+
+h1 {
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 2.5vh;
+  color: #00b0cf;
+}
+
+.image {
+  height: 3vh;
+  /* margin-left: 1vw; */
+  margin-right: 0.5vw;
+
+}
+
+main {
+  height: 50vh;
+  width: 20vw;
+  background-image: linear-gradient(to top, rgb(253, 203, 241) 0%, #fdcbf1 1%, rgb(230, 222, 233) 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 10px 10px 5px 0px rgba(166, 193, 238, 0.75);
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#n1 {
+  background-color: transparent;
+  border-color: white;
+  height: 2vh;
+}
+
+#n2 {
+  background-color: transparent;
+  border-color: white;
+  height: 2vh;
+}
+
+#operadores {
+  background-color: transparent;
+  border-color: white;
+  border: inset 2px;
+}
+
+.n1Class {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  color: #00b0cf;
+  font-weight: bold;
+  margin-bottom: 2vh;
+  font-family: 'Rajdhani', sans-serif;
+}
+
+.n2Class {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  color: #00b0cf;
+  font-weight: bold;
+  margin-bottom: 2vh;
+  font-family: 'Rajdhani', sans-serif;
+}
+
+.operadoresClass {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2vh;
+}
+
+#button {
+  background-color: rgb(248, 190, 0);
+  border-color: gold;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin-left: 3.35vw;
+  margin-top: 2vh;
+  padding: 0.5em;
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 1.7vh;
+  font-weight: 600;
+  
+}
+
+#result {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15vw;
+  height: 4vh;
+  margin-top: 5vh;
+  background-color: #00b0cf80;
+  color: white;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 600;
+}

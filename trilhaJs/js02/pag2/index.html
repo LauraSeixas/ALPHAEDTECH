@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <form id="myForm">
+    <fieldset>
+      <legend id="TEST"><strong>Qual é a Maior String?</strong></legend>
+
+      <section>
+        <p>
+          <label for="a">
+            <span>A: </span>
+          </label>
+          <input type="text" id="a" name="aWord" placeholder="escolha uma palavra" required />
+        </p>
+        <p>
+          <label for="b">
+            <span>B: </span>
+          </label>
+          <input type="text" id="b" name="bWord" placeholder="escolha uma palavra" required />
+        </p>
+      </section>
+      <input type="submit" value="COMPARAR" id="button">
+    </fieldset>
+  </form>
+  <p id="result"></p>
+  <script type="text/javascript" src="./script.js"></script>
+</body>
+
+</html>

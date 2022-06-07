@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <form id="myForm">
+    <fieldset>
+      <legend id="TEST"><strong>Quanto tempo você ainda vai VIVER...</strong></legend>
+
+      <section>
+
+        <ul>
+          <li>
+            <label for="woman">
+              <input type="radio" id="woman" name="gender" value="woman" required checked/>
+              Mulher
+            </label>
+          </li>
+          <li>
+            <label for="man">
+              <input type="radio" id="man" name="gender" value="man" required />
+              Homem
+            </label>
+          </li>
+        </ul>
+        
+        <p>
+          <label for="date">
+            <span>Aniversário: </span>
+          </label>
+          <input type="date" id="date" name="birthday" required/>
+        </p>
+
+      </section>
+
+      <input type="submit" value="????" id="button">
+
+    </fieldset>
+  </form>
+  <p id="result"></p>
+  <script type="text/javascript" src="./script.js"></script>
+</body>
+
+</html>

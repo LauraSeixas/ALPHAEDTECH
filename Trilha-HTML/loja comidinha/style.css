@@ -1,0 +1,155 @@
+/* #273A4E
+#8B98A7
+#303131
+#20303C */
+@font-face { font-family: "Cinzel"; src: url("https://fonts.gstatic.com/s/cinzel/v17/8vIU7ww63mVu7gtR-kwKxNvkNOjw-tbnfY3lDQ.woff2")}
+@font-face { font-family: "Avenir-LT-W01_35-Light1475496"; src: url("https://static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/0078f486-8e52-42c0-ad81-3c8d3d43f48e.woff2")}
+@font-face { font-family: "Madefor"; src: url("media/WixMadeforTextVF_W_Wght.8022447a.woff2")}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f9fafa;
+}
+
+header {
+    background-color: #f9fafa;
+    height: 10vh;
+    width: 92%;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+    margin-right: 0.2vw;
+    font-family: "Avenir-LT-W01_35-Light1475496";
+    font-size: 1.8vh;
+}
+
+h4 {
+    color: #303131;
+    font-family: "Cinzel";
+    font-size: 3vh;   
+    cursor: pointer;
+}
+
+#menuhome {
+    color: #8B98A7;
+    cursor: pointer;
+
+}
+
+.othersmenu {
+    color: #303131;
+    cursor: pointer;
+}
+
+main {
+    width: 92%;
+    height: 94.9vh;
+    background-image: url("./image/f61af8_97a68d95c3584eee8952b7b3184f5f80_mv2_d_6924_3840_s_4_2.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+    margin-bottom: 1vh;
+    color: #FFFFFF;
+    background-color: #20303C3D;
+    background-blend-mode:darken;
+}
+#text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2vh;
+
+}
+h1 {
+    font-size: 7.5vh;
+    font-family: "Cinzel";
+    letter-spacing: 0.1em;
+    margin-bottom: 1.5vh;
+}
+
+h6 {
+    font-size: 2vh;
+    font-family: "Avenir-LT-W01_35-Light1475496";
+    letter-spacing: 0.55em;
+    margin-bottom: 4vh;
+}
+
+button {
+    font-size: 13px;
+    font-weight: 300;
+    color: #FFFFFF;
+    border: 1.5px solid #FFFFFF;
+    background-color: transparent;
+    padding: 0.5em 2.5em 0.5em 2.5em;
+    margin-left: 0.6vw;
+    font-family: "Avenir-LT-W01_35-Light1475496";
+    cursor: pointer;
+}
+button:hover {
+    background-color: #20303C;
+    border: 1.5px solid #20303C;
+  }
+footer {
+    height: 12vh;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icone {
+    height: 2.5vh;
+    margin-right: 1vw;
+    margin-bottom: 2vh;
+    cursor: pointer;
+}
+
+#endFooter{
+    font-family: "Avenir-LT-W01_35-Light1475496";
+    font-size: 1.7vh;
+    color: #303131;
+}
+
+#chat {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Cinzel";
+    background-color: rgb(187, 151, 168);;
+    color: white;
+    font-weight: 500;
+    font-size: 1.8vh;
+    border: 1px solid rgb(187, 151, 168);
+    padding: 0.7em 1.3em 0.7em 1.2em;
+    margin-top: 2.5vh;
+    margin-bottom: 1vh;
+    cursor: pointer;
+    position: fixed;
+    right: 1%;
+    bottom: 1%;
+}
+
+#smile {
+    margin-right: 0.5vw;
+}
