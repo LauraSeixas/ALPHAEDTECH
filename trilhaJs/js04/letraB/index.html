@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Letra B - JS aula 04</title>
+  </head>
+  <body>
+    <form id="myFormB">
+      <fieldset>
+        <legend><strong>Nº entre o Mínimo e o Máximo</strong></legend>
+
+        <section>
+          <p>
+            <label for="n1">
+              <span>Nº mínimo: </span>
+            </label>
+            <input
+              type="text"
+              id="n1Min"
+              name="n1Number"
+              placeholder="digite um número INTEIRO"
+              required
+            />
+          </p>
+          <p>
+            <label for="n2">
+              <span>Nº máximo: </span>
+            </label>
+            <input
+              type="text"
+              id="n2Max"
+              name="n2Number"
+              placeholder="digite um número INTEIRO"
+              required
+            />
+          </p>
+        </section>
+        <input type="submit" value="SORTEAR" />
+      </fieldset>
+    </form>
+    <p id="result"></p>
+    <script type="text/javascript" src="./script.js"></script>
+  </body>
+</html>
