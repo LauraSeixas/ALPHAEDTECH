@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    gap: 30px;
+  }
+  
+  fieldset {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #button{
+    margin-top: 1vh;
+  }
+  #result {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15vw;
+    height: 35vh;
+    margin-top: 3vh;
+    background-color: lightslategray;
+    border-radius: 1px solid black;
+    color: white;
+  }
+  img{
+    height: 30vh;
+  }
+  
