@@ -1,0 +1,36 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15vh;
+}
+ section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2vh;
+ }
+
+button{
+   background-color: red;
+   color: white;
+   border: none;
+   border-radius: 5px;
+   padding: 8px;
+   margin-top: 2vh;
+}
+
+h4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: red;
+    font-weight: 700;
+}
+
+#bombPum{
+    border-radius: 50%;
+}

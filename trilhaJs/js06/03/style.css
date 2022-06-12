@@ -1,0 +1,37 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    margin-top: 2vh;
+ }
+
+ select{
+    background-color: lightskyblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    margin-top: 2vh;
+ }
+
+ p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: lightskyblue;
+    font-weight: 700;
+    margin-top: 4vh;
+    border-style: ridge;
+    border-color: lightskyblue;
+    padding: 0.25em 2em 0.25em 2em;
+ }
