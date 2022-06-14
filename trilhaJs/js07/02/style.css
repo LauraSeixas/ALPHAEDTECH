@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    gap: 30px;
+  }
+  
+  fieldset {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #button{
+    margin-top: 1vh;
+  }
+  #result {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  img{
+    height: 13vh;
+    margin-top: 5vh;
+  
+  }
+  #informacao{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+  }
+
+  input:invalid {
+    border-color: red;
+  }

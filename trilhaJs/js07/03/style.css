@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    gap: 30px;
+  }
+  
+  fieldset {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+  }
+
+  textarea{
+    background-color: white;
+  }
+
+  #clear{
+    margin-left: 15px;
+    background-color: white;
+    border: none;
+    border-radius: 2px;
+    padding: 0.2em 1.5em;
+    font-weight: bold;
+  }
+
+  #button{
+    background-color: white;
+    border: none;
+    border-radius: 2px;
+    padding: 0.2em 1.5em;
+    font-weight: bold;
+  }
