@@ -28,6 +28,9 @@ const clear = document.querySelector('#clear');
 
 document.querySelector('#button').addEventListener('click', event => {
     event.preventDefault();
+    if (text.value === '') {
+        return false;
+    }
     textValue = text.value;
     textarea.innerHTML += textValue + '\n';
     textarea.scrollTop = textarea.scrollHeight;
@@ -35,16 +38,14 @@ document.querySelector('#button').addEventListener('click', event => {
 
 })
 
-document.querySelector('#texto').addEventListener('keypress', e => {
-    if (e.key === "Enter") {
-        e.preventDefault();
+document.querySelector('#texto').addEventListener('keypress', event => {
+    if (event.key === "Enter") {
+        event.preventDefault();
         textarea.scrollTop = textarea.scrollHeight;
         button.click();
     }
 })
 
-document.querySelector('#clear').addEventListener('click', clearText);
-    function clearText() {
-    textarea.value = '';
-}
-
+document.querySelector('#clear').addEventListener('click', () => {
+    textarea.innerHTML = '';
+});
