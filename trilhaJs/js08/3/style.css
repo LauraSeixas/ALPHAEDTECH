@@ -1,0 +1,46 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: #f5f5f5;
+}
+
+#erroCapturado{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: red;
+    color: white;
+    font-weight: bolder;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5;
+}
+fieldset{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    background-color: lightgray;
+    border-radius: 10px;
+    border-color: black;
+}
+
+#botao{
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    border-color: white;
+    border-style: inset;
+    border-radius: 5px;
+    width: 100px;
+}

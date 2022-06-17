@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>03 - lista 08</title>
+</head>
+
+<body>
+
+    <form id="myForm">
+        
+        <fieldset>
+
+            <legend><strong>JSON.stringify</strong></legend>
+
+
+            <label for="textarea"> <span></span> </label>
+
+            <input type="text" name="nome" id="nome" placeholder="digite seu nome completo">
+            <p id="nomeLabel"></p>
+            <input type="date" name="aniversario" id="aniversario">
+            <p id="aniverLabel"></p>
+            <input type="number" name="peso" id="pesos" placeholder="digite seu peso em kg">
+            <p id="pesoLabel"></p>
+            <input type="number" name="altura" id="altura" placeholder="digite sua altura em centímetros">
+            <p id="alturaLabel"></p>
+            <select name="genero" id="genero">
+                <option value="" hidden disabled selected></option>
+                <option value="mulher">mulher</option>
+                <option value="homem">homem</option>
+            </select>
+            <p id="generoLabel"></p>
+            <input type="button" value="ENVIAR" id="botao">
+
+
+        </fieldset>
+            <p id="erroCapturado"></p>
+    </form>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
