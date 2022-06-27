@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <title>01 - Lista 11</title>
+</head>
+
+<body>
+  
+    <section>
+        
+        <input type="text" placeholder="Nome do produto" id="product">
+
+        <input type="text" placeholder="Descrição do produto" id="description">
+
+        <input type="number" placeholder="Preço do produto" id="productPrice">
+        <div id="divButtons">
+            <button value="" id="buttonInclude"> Incluir Produto</button>
+            <button id="buttonList"> Listar Produto</button>
+        </div>
+        <div id="divSearch">
+            <input type="search" id="inputSearch" placeholder="faça a sua busca aqui">
+            <button id="searchNameDescription"><img src="./image/search_black_24dp.svg" ></button>
+        </div>
+        <h4></h4>
+    </section>
+    
+    <section>
+        <table id="tableList">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th><button id="nameList">Produto</button></th>
+                    <th><button id="priceList">Preço</button></th>
+                    <th>Editar</th>
+                    <th>Apagar</th>
+                </tr>
+            </thead>
+            <tbody id="tableBody">
+               
+            </tbody>
+        </table>
+    </section>
+
+    <script src="./srcipt.js"></script>
+</body>
+
+</html>

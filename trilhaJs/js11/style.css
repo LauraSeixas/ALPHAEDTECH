@@ -1,0 +1,93 @@
+body{
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+h4{
+    font-size: 2.4vh;
+    border: 4px double black;
+    padding: 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+#product, #description, #productPrice{
+    font-family: 'Montserrat', sans-serif;
+    border: #000000 solid 1px;
+}
+#tableList{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 3vh;
+    border: 5px double #000000;
+    padding:2px;
+}
+#tableList th{
+    font-family: 'Montserrat', sans-serif;
+    border: white;
+    padding:5px;
+    background: black;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 2.5vh;
+}
+#tableList td {
+    font-family: 'Montserrat', sans-serif;
+    border: 2px double #000000;
+    text-align:center;
+    padding:10px;
+    background: #ffffff;
+    color: #313030;
+}
+#divButtons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+#divSearch{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+#buttonInclude, #buttonList {
+    font-family: 'Montserrat', sans-serif;
+    background: black;
+    color: white;
+    padding: 0.05em 1.85em;
+    border: 1px solid black;
+}
+button{
+    font-family: 'Montserrat', sans-serif;
+    background: transparent;
+    color: black;
+    padding:1px;
+    border: none;
+    cursor: pointer;
+}
+button:active{
+    transform: scale(1.1);
+}
+
+#nameList, #priceList{
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 2.5vh;
+}
+
+#inputSearch{
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    border: black solid 1px;
+    padding: 0em 4em;
+}
